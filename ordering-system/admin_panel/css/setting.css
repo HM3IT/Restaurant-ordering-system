@@ -21,6 +21,7 @@
   width: 180px;
   height: 180px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .grid-form .group {
   width: 100%;
@@ -134,4 +135,15 @@
   100% {
     transform: translateX(0);
   }
+}
+
+#export-data-form .button-flex{
+  justify-content: flex-start;
+  gap: 10px;
+}
+#export-data-form #file-path{
+  width: 400px;
+}
+.user-expot-btn:hover{
+cursor: pointer;
 }
